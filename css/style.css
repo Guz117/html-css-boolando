@@ -17,7 +17,6 @@ html {
 .contain {
     width: 90%;
     height: 600px;
-    background: lightgray;
     margin: 1em auto;
 }
 
@@ -25,25 +24,60 @@ html {
     float: left;
     width: 32.5%;
     height: 600px;
-    background: lightcoral;
     margin-bottom: 1em;
 }
 
-.top-center, .buttom-center {
+.dress:hover .habit img {
+    display: inline-block;
+}
+
+.top-center, .bottom-center {
     margin: 0 14px;
 }
 
-.coat {
+.habit {
     width: 100%;
     height: 550px;
-    background: chartreuse;
+    
+    background-size: cover;
+    background-position: center;
     position: relative;
+}
+
+.coat {
+    background-image: url('../img/1.webp');
+}
+
+.skirt-red {
+    background-image: url('../img/2.webp');
+}
+
+.jaket-beige {
+    background-image: url('../img/3.webp');
+}
+
+.jaket-blue {
+    background-image: url('../img/4.webp');
+}
+
+.skirt-pink {
+    background-image: url('../img/5.webp');
+}
+
+.skirt-brown {
+    background-image: url('../img/6.webp');
+}
+
+
+.habit img {
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
 .description {
     width: 100%;
-
-    background: cornflowerblue;
+    
 }
 
 .hearts {
@@ -53,6 +87,10 @@ html {
     position: absolute;
     top: 15px;
     right: 0;
+}
+
+.hearts:hover {
+    color: red;
 }
 
 .discount, .sustainability {
@@ -85,6 +123,7 @@ html {
 
 .price {
     text-decoration: line-through;
+    marg
 }
 
 
